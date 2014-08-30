@@ -32,7 +32,6 @@ var BackboneSignatureComments = function(){
 	|  c.push()/pop()   | c.shift()/unshift | c.sort()     | attribute_methods    |
 	|  c.slice()        | c.where()         | c.pluck()    | c.groupBy()/countBy()|
 	|  c.at()           | c.findWhere()     | c.clone()    | c.sortBy()/indexBy() |
-	|  c.at()           | c.findWhere()     | c.clone()    | c.sortBy()/indexBy() |
 	|.---------------------------------------------------------------------------.|
 	| c.forEach()       | c.filter()        | c.min()          | c.tail()         |
 	| c.each()          | c.select()        | c.toArray()      | c.drop()         |
@@ -212,7 +211,7 @@ var MarionetteCompositeViewNotes = function(){
 var MarionetteLayoutViewNotes = function(){
 	/*
 	 .---------------------------------------------------------------------------. 
-	|    Marionette.LayoutView  -> extends from ItemView                          |
+	|    Marionette.LayoutView                                                    |
 	|`---------------------------------------------------------------------------'|
 	|    Prototype Chain for LayoutView                                           |
 	|     Backbone.View -> Marionette.View -> Marionette.ItemView                 |
@@ -241,6 +240,58 @@ var MarionetteLayoutViewNotes = function(){
 	*/
 }
 
+var MarionetteAppRouterNotes = function(){
+	/*
+	 .---------------------------------------------------------------------------. 
+	|    Marionette.AppRouter                                                     |
+	|`---------------------------------------------------------------------------'|
+	|    Prototype Chain for AppRouter                                            |
+	|     Backbone.Router -> Marionette.AppRouter                                 |
+	|.---------------------------------------------------------------------------.|
+	|    listen events  | trigger events                                          |
+	|    -------------  | --------------                                          |
+	|                   |                                                         |
+	|.---------------------------------------------------------------------------.|
+	|  Class Options: appRoutes, routes                                           |
+	|.---------------------------------------------------------------------------.|
+	|  Constructor Options: controller                                            |
+	|.---------------------------------------------------------------------------.|
+	| v.constructor                                                               |
+	| v.appRoute()          ->  Used when adding routs @ runtime methodology      |
+	| v.processAppRoutes()  ->  Used when adding routs @ runtime methodology      |
+	|                                                                             |
+	|                                                                             |
+	|                                                                             |
+	|                                                                             |
+	|                                                                             |
+	 `---------------------------------------------------------------------------'
+	*/
+
+}
+var MarionetteHistoryNotes = function(){
+	/*
+	 .---------------------------------------------------------------------------. 
+	|    Marionette.History                                                       |
+	|`---------------------------------------------------------------------------'|
+	|    Prototype Chain for History                                              |
+	|.---------------------------------------------------------------------------.|
+	|    listen events  | trigger events                                          |
+	|    -------------  | --------------                                          |
+	|                   |                                                         |
+	|.---------------------------------------------------------------------------.|
+	|  Class Options:                                            |
+	|.---------------------------------------------------------------------------.|
+	|  Constructor Options:                                             |
+	|.---------------------------------------------------------------------------.|
+	|                                                                             |
+	|                             {pushState: true }                                                |
+	|                                                                             |
+	|                                                                             |
+	|                                                                             |
+	 `---------------------------------------------------------------------------'
+	*/
+
+}
 
 var Misc = function() {
 	/*
