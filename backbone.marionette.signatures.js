@@ -197,7 +197,7 @@ var MarionetteCompositeViewNotes = function(){
 	| Marionette.CompositeView                                                    |
 	|`---------------------------------------------------------------------------'|
 	|    Prototype Chain                                                          |
-	|    Backbone.View -> Marionette.View -> Marionette.CpllectionView            |
+	|    Backbone.View -> Marionette.View -> Marionette.CollectionView            |
 	|                                                `-> Marionette.CompositeView |
 	|.---------------------------------------------------------------------------.|
 	|  Class Options: childViewContainer                                          |
